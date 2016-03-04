@@ -1,8 +1,6 @@
 # Shopify API Test Example
 
-[![Build Status](https://secure.travis-ci.org/tyler-king/shopify_api_test_example
-.svg?branch=master)](http://travis-ci.org/tyler-king/shopify_api_test_example
-)
+[![Build Status](https://secure.travis-ci.org/tyler-king/shopify_api_test_example.svg?branch=master)](http://travis-ci.org/tyler-king/shopify_api_test_example)
 
 This repository outlines simple code on how to use mocks, fixtures, and tests, to test your Shopify API calls.
 
