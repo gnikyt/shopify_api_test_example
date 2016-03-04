@@ -15,4 +15,6 @@ bundle install --path vendor/bundle
 bundle exec rake SHOPIFY_SHOP=coolshop.myshop.com
 ```
 
+## Final Thoughts
+
 Take a look at the `test/metafields_test.rb` file for how to implement and expand upon the tests for your own applications.
