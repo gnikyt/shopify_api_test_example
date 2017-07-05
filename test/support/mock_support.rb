@@ -7,7 +7,7 @@ module MockSupport
   #   load_fixture :get, :metafields # loads test/fixtures/get_metafields.json
   #   load_fixture :post, :products # loads test/fixtures/post_products.json
   def load_fixture(method, endpoint)
-    File.read(File.join("test", "fixtures", "#{method.to_s}_#{endpoint.to_s.gsub("/", "_")}.json"))
+    File.read(File.join('test', 'fixtures', "#{method.to_s}_#{endpoint.to_s.gsub("/", "_")}.json"))
   end
   
   # Helper to tell webmock to mock a request and load its fixture

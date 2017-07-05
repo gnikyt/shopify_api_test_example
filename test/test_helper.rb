@@ -1,7 +1,7 @@
-require "minitest/autorun"
-require "webmock/minitest"
-require "shopify_api"
-require_relative "support/mock_support"
+require 'minitest/autorun'
+require 'webmock/minitest'
+require 'shopify_api'
+require_relative 'support/mock_support'
 
 module Minitest
   class Test
